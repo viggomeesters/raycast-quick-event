@@ -2,7 +2,7 @@ import { addHours, addMinutes, differenceInCalendarDays, format, roundToNearestM
 import { CalendarEvent } from './types';
 
 export const getHumanDateFormat = 'MMM dd, yyyy';
-export const getHumanTimeFormat = 'h:mm aa';
+export const getHumanTimeFormat = 'HH:mm';
 
 export const formatRelativeDay = (date: Date, relativeDate: Date) => {
   switch (differenceInCalendarDays(date, relativeDate)) {

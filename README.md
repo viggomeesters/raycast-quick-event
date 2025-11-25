@@ -36,6 +36,35 @@ Build locally
 ```
 
 Finally open Raycast and use the command `Import Extension` then choose the cloned directory
+## Features
+
+- **Natural Language Parsing**: Create events just by typing (e.g., "Lunch tomorrow at 1pm").
+- **Invitees**: Add attendees by email.
+  - Example: `Meeting with viggo@example.com`
+  - Supports multiple invitees.
+- **Recent Invitees**:
+  - Automatically remembers people you invite.
+  - **Autocomplete**: Type `@` or `with` to see suggestions from your history.
+  - **Management**: Edit or remove recent invitees directly from the list (⌘E to edit, ⌃X to remove).
+- **Recurring Events**:
+  - Create repeating events easily.
+  - Supports daily, weekly, monthly, yearly patterns.
+  - Specific days: `every Mon, Wed, Fri`.
+  - Intervals: `every 2 weeks`.
+
+## Create Event Examples
+
+- February 24 at 3pm - 2pm March 3
+- Vacation is in 4 weeks...
+- Christmas is on December 25th.
+- Homework 5 due next monday at 3pm
+- Let's have lunch on the 3rd.
+- The retreat is from Jan 12 - 29.
+- Bake a cake tomorrow.
+- **Meeting with test@example.com next Friday**
+- **Team Sync every Monday at 10am**
+- **Gym every Mon, Wed, Fri at 7am**
+
 ## Extension Preferences
 
 The `Your calendars` text field is *required*

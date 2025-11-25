@@ -5,4 +5,7 @@ export interface CalendarEvent {
   endDate: Date;
   isAllDay: boolean;
   validated: boolean;
+  invitees: string[];
+  recurrence?: string;
+  recurrenceDescription?: string;
 }
