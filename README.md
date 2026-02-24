@@ -1,3 +1,7 @@
+> **⚠️ Archived** — Archived — switched back to Raycast's built-in quick event functionality.
+
+---
+
 
 # Quick Event Extension for Raycast
 
